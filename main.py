@@ -10,6 +10,6 @@ for page in range(len(dir(open_file))):
         page = pagina.get_images(full=True)
         print(page)
 
-    #pagina = open_file.load_page(page)
-    #page = pagina.get_images(full=True)
-    #print(page)
+        for i in page:
+            print(i)
+    
